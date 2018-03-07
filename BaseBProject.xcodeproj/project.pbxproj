@@ -13,6 +13,7 @@
 		A3205F32204D123E0050A2A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3205F31204D123E0050A2A8 /* Assets.xcassets */; };
 		A3205F35204D123E0050A2A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3205F33204D123E0050A2A8 /* LaunchScreen.storyboard */; };
 		A35FEDF1204D744900F83521 /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35FEDF0204D744900F83521 /* BaseTest.swift */; };
+		A3C5278E204FE0BE00F9C795 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C5278D204FE0BE00F9C795 /* BaseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A3205F34204D123E0050A2A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3205F36204D123E0050A2A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A35FEDF0204D744900F83521 /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
+		A3C5278D204FE0BE00F9C795 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				A3205F2A204D123E0050A2A8 /* AppDelegate.swift */,
 				A3205F2C204D123E0050A2A8 /* ViewController.swift */,
 				A35FEDF0204D744900F83521 /* BaseTest.swift */,
+				A3C5278D204FE0BE00F9C795 /* BaseView.swift */,
 				A3205F2E204D123E0050A2A8 /* Main.storyboard */,
 				A3205F31204D123E0050A2A8 /* Assets.xcassets */,
 				A3205F33204D123E0050A2A8 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 				A3205F2D204D123E0050A2A8 /* ViewController.swift in Sources */,
 				A35FEDF1204D744900F83521 /* BaseTest.swift in Sources */,
 				A3205F2B204D123E0050A2A8 /* AppDelegate.swift in Sources */,
+				A3C5278E204FE0BE00F9C795 /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +219,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -266,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
