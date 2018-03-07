@@ -8,6 +8,6 @@
 
 import UIKit
 
-class BaseTest: NSObject {
+public class BaseTest: NSObject {
 
 }
